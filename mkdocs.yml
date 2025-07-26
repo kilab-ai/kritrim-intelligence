@@ -1,0 +1,58 @@
+site_name: OSB (Open Source Bot) - Kritrim Intelligence
+site_url: https://github.com/kilab-ai/osb # Replace with your actual GitHub Pages URL
+site_author: Kritrim Intelligence (KILab)
+repo_name: kilab-ai/osb  # Update with your GitHub repo
+repo_url: https://github.com/kilab-ai/osb
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.annotate
+    - content.tabs.link
+    - toc.integrate
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+nav:
+  - Home: index.md
+  - Privacy Policy: privacy.md
+  - GDPR Compliance: gdpr.md
+  - License: license.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - footnotes
+  - attr_list
+  - def_list
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername/osb
+    - icon: fontawesome/brands/android
+      link: https://play.goo
